@@ -17,4 +17,7 @@ public class CLIUtil {
     return scanner.nextDouble();
   }
 
+  public static String getString() {
+    return scanner.next();
+  }
 }
